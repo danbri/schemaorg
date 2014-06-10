@@ -6661,6 +6661,7 @@ Note that Event uses startDate/endDate instead of startTime/endTime, even when d
     <div typeof="rdf:Property" resource="http://schema.org/itemReviewed">
       <span class="h" property="rdfs:label">itemReviewed</span>
       <span property="rdfs:comment">The item that is being reviewed/rated.</span>
+      <link property="rdfs:subPropertyOf" href="http://schema.org/mainEntity" />
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/AggregateRating">AggregateRating</a></span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Review">Review</a></span>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Thing">Thing</a></span>
@@ -9997,10 +9998,20 @@ on public-vocabs@w3.org.</p>
       such cases, the 'about' property can be used. The 'mainEntity' property can be useful for publishers who want
       to emphasise which real world thing is the main focus of a CreativeWork.
       </span>
-      
+      <link property="rdfs:subPropertyOf" href="http://schema.org/about" />
+      <link property="http://schema.org/inverseOf" href="http://schema.org/mainEntityOf"/>
       <span>domainIncludes: <a property="http://schema.org/domainIncludes" href="http://schema.org/CreativeWork">CreativeWork</a></span>
       <span>domainIncludes: <a property="http://schema.org/domainIncludes" href="http://schema.org/Review">Review</a></span>
       <span>rangeIncludes: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Thing">Thing</a></span>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/mainEntityOf">
+      <span class="h" property="rdfs:label">mainEntityOf</span>
+      <span property="rdfs:comment">Indicates a CreativeWork (e.g. WebPage, Book) that this entity is the mainEntity of.</span>
+      <link property="http://schema.org/inverseOf" href="http://schema.org/mainEntity"/>
+      <span>domainIncludes: <a property="http://schema.org/domainIncludes" href="http://schema.org/Thing">Thing</a></span>
+      <span>rangeIncludes: <a property="http://schema.org/rangeIncludes" href="http://schema.org/CreativeWork">CreativeWork</a></span>
+      <span>rangeIncludes: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Review">Review</a></span>
     </div>
 
   </body>
