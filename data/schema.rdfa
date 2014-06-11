@@ -6665,6 +6665,7 @@ Note that Event uses startDate/endDate instead of startTime/endTime, even when d
     <div typeof="rdf:Property" resource="http://schema.org/itemReviewed">
       <span class="h" property="rdfs:label">itemReviewed</span>
       <span property="rdfs:comment">The item that is being reviewed/rated.</span>
+      <link property="rdfs:subPropertyOf" href="http://schema.org/mainEntity" />
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/AggregateRating">AggregateRating</a></span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Review">Review</a></span>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Thing">Thing</a></span>
@@ -10196,6 +10197,43 @@ on public-vocabs@w3.org.</p>
       <span property="rdfs:comment">A link to the ListItem that follows the current one.</span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/ListItem">ListItem</a></span>
       <span>Domain: <a property="http://schema.org/rangeIncludes" href="http://schema.org/ListItem">ListItem</a></span>
+
+    <h1>mainEntity</h1>
+
+    <p>Indicates the mainEntity in a page.</p>
+    <ul>
+    <li>Not to be confused with: <a href="/about">about</a>, since that can have multiple values</li>
+    <li>Also not to be confused with: <a href="/mainContentOfPage">mainContentOfPage</a>, since its values are pieces of markup in the page, e.g. a 'table' element,
+      rather than the real word things/entities that they refer to, e.g. the Eiffel Tower.</li>
+    </ul>
+
+    <div typeof="rdf:Property" resource="http://schema.org/mainEntity">
+      <span class="h" property="rdfs:label">mainEntity</span>
+      <span property="rdfs:comment">The main entity (i.e. thing that is the primary topic) of some CreativeWork (or Review).
+
+      For example, the mainEntity of a restaurant's home page would be the Restaurant. The mainEntity in an
+      autobiographical book would be its author. The mainEntity in a Review would be the itemReviewed (so we can
+      consider itemReviewed to be a sub-property of mainEntity).
+
+      A page or document is often about a great many things and topics, with none of them clearly the 'main' one. In
+      such cases, the 'about' property can be used. The 'mainEntity' property can be useful for publishers who want
+      to emphasise which real world thing is the main focus of a CreativeWork.
+      </span>
+      <link property="rdfs:subPropertyOf" href="http://schema.org/about" />
+      <link property="http://schema.org/inverseOf" href="http://schema.org/mainEntityOf"/>
+      <span>domainIncludes: <a property="http://schema.org/domainIncludes" href="http://schema.org/CreativeWork">CreativeWork</a></span>
+      <span>domainIncludes: <a property="http://schema.org/domainIncludes" href="http://schema.org/Review">Review</a></span>
+      <span>rangeIncludes: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Thing">Thing</a></span>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/mainEntityOf">
+      <span class="h" property="rdfs:label">mainEntityOf</span>
+      <span property="rdfs:comment">Indicates a CreativeWork (e.g. WebPage, Book) that this entity is the mainEntity of.</span>
+      <link property="http://schema.org/inverseOf" href="http://schema.org/mainEntity"/>
+      <span>domainIncludes: <a property="http://schema.org/domainIncludes" href="http://schema.org/Thing">Thing</a></span>
+      <span>rangeIncludes: <a property="http://schema.org/rangeIncludes" href="http://schema.org/CreativeWork">CreativeWork</a></span>
+      <span>rangeIncludes: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Review">Review</a></span>
+
     </div>
 
   </body>
