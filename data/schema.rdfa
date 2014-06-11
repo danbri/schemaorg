@@ -9976,7 +9976,6 @@ on public-vocabs@w3.org.</p>
       <span>rangeIncludes: <a property="http://schema.org/rangeIncludes" href="http://schema.org/URL">URL</a></span>
     </div>
 
-<<<<<<< HEAD
 
     <h1>Sports</h1>
     <p>Sports Vocabulary design as of 2014-06-06.</p>
@@ -10143,7 +10142,7 @@ on public-vocabs@w3.org.</p>
     <!-- extend domain of 'startDate' to include 'Statistic' -->
     <!-- extend domain of 'endDate' to include 'Statistic' -->
 
-=======
+
     <h1>ItemList and ListItem</h1>
 
     <!-- ========================== -->
@@ -10198,6 +10197,6 @@ on public-vocabs@w3.org.</p>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/ListItem">ListItem</a></span>
       <span>Domain: <a property="http://schema.org/rangeIncludes" href="http://schema.org/ListItem">ListItem</a></span>
     </div>
->>>>>>> sdo-itemlist
+
   </body>
 </html>
