@@ -9975,5 +9975,168 @@ on public-vocabs@w3.org.</p>
       <span>rangeIncludes: <a property="http://schema.org/rangeIncludes" href="http://schema.org/URL">URL</a></span>
     </div>
 
+
+    <h1>VideoGame</h1>
+
+    <div typeof="rdfs:Class" resource="http://schema.org/VideoGame">
+      <span class="h" property="rdfs:label">VideoGame</span>
+      <span property="rdfs:comment">A video game is an electronic game that involves human interaction with a user interface to generate visual feedback on a video device</span>
+      <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/SoftwareApplication">SoftwareApplication</a></span>
+      <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Game">Game</a></span>
+    </div>
+    <div typeof="rdfs:Class" resource="http://schema.org/Game">
+      <span class="h" property="rdfs:label">Game</span>
+      <span property="rdfs:comment">A role-playing game is a game in which players assume the roles of characters in a fictional setting.</span>
+      <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/CreativeWork">CreativeWork</a></span>
+    </div>
+
+    <div typeof="rdfs:Class" resource="http://schema.org/GamePlayMode">
+      <span class="h" property="rdfs:label">GamePlayMode</span>
+      <span property="rdfs:comment">Indicates whether this game multi-player, co-op or single-player</span>
+      <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Enumeration">Enumeration</a></span>
+    </div>
+
+    <div typeof="http://schema.org/GamePlayMode" resource="http://schema.org/Multi-player">
+      <span class="h" property="rdfs:label">Multi-player</span>
+      <span property="rdfs:comment">Play mode: Multi-player.</span>
+    </div>
+    <div typeof="http://schema.org/GamePlayMode" resource="http://schema.org/Co-op">
+      <span class="h" property="rdfs:label">Co-op</span>
+      <span property="rdfs:comment">Play mode: Co-op.</span>
+    </div>
+    <div typeof="http://schema.org/GamePlayMode" resource="http://schema.org/Single-player">
+      <span class="h" property="rdfs:label">Single-player</span>
+      <span property="rdfs:comment">Play mode: Single-player.</span>
+    </div>
+
+    <div typeof="rdfs:Class" resource="http://schema.org/GameServerStatus">
+      <span class="h" property="rdfs:label">GameServerStatus</span>
+      <span property="rdfs:comment">Status of game server</span>
+      <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Enumeration">Enumeration</a></span>
+    </div>
+
+    <div typeof="http://schema.org/GamePlayMode" resource="http://schema.org/Online">
+      <span class="h" property="rdfs:label">Online</span>
+      <span property="rdfs:comment">Game server status: Online.</span>
+    </div>
+    <div typeof="http://schema.org/GamePlayMode" resource="http://schema.org/OnlineFull">
+      <span class="h" property="rdfs:label">OnlineFull </span>
+      <span property="rdfs:comment">Game server status: OnlineFull .</span>
+    </div>
+    <div typeof="http://schema.org/GamePlayMode" resource="http://schema.org/OfflineTemporarily">
+      <span class="h" property="rdfs:label">OfflineTemporarily </span>
+      <span property="rdfs:comment">Game server status: OfflineTemporarily .</span>
+    </div>
+    <div typeof="http://schema.org/GamePlayMode" resource="http://schema.org/OfflinePermanently">
+      <span class="h" property="rdfs:label">OfflinePermanently </span>
+      <span property="rdfs:comment">Game server status: OfflinePermanently .</span>
+    </div>
+     <div typeof="rdf:Property" resource="http://schema.org/location">
+      <span class="h" property="rdfs:label">location</span>
+      <span property="rdfs:comment">The location of the event, organization or action.</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Organization">Organization</a></span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Event">Event</a></span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Action">Action</a></span>
+       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Game">Game</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Place">Place</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/PostalAddress">PostalAddress</a></span>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/minNumberOfPlayer">
+      <span class="h" property="rdfs:label">minNumberOfPlayer</span>
+      <span property="rdfs:comment">Minimum number of players in a game</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Game">Game</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Number">Number</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/maxNumberOfPlayer">
+      <span class="h" property="rdfs:label">maxNumberOfPlayer</span>
+      <span property="rdfs:comment">Maximum number of players in a game</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Game">Game</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Number">Number</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/quest">
+      <span class="h" property="rdfs:label">quest</span>
+      <span property="rdfs:comment">The task that a player-controlled character, or group of characters may complete in order to gain a reward</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Game">Game</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Thing">Thing</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/gameItem">
+      <span class="h" property="rdfs:label">gameItem</span>
+      <span property="rdfs:comment">An item is an object within the game world that can be collected by a player or, occasionally, a non-player character</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Game">Game</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Thing">Thing</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/character">
+      <span class="h" property="rdfs:label">character</span>
+      <span property="rdfs:comment">Fictional person connected with creative work</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/CreativeWork">CreativeWork</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Person">Person</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/characterAttribute">
+      <span class="h" property="rdfs:label">characterAttribute</span>
+      <span property="rdfs:comment">A piece of data that represents a particular aspect of a fictional character (skill, power, character points, advantage, disadvantage)</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Game">Game</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Thing">Thing</a></span>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/playModes">
+      <span class="h" property="rdfs:label">playModes</span>
+      <span property="rdfs:comment">Indicates whether this game multi-player, co-op or single-player</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/VideoGame">VideoGame</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/translator">
+      <span class="h" property="rdfs:label">translator</span>
+      <span property="rdfs:comment">Organization or person who adapts creative work to different languages, regional differences and technical requirements of a target market. </span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/CreativeWork">CreativeWork</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Person">Person</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Organization">Organization</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/softwareAddOn">
+      <span class="h" property="rdfs:label">softwareAddOn</span>
+      <span property="rdfs:comment">Additional content for a software application</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/SoftwareApplication">SoftwareApplication</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/SoftwareApplication">SoftwareApplication</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/cheatCodes">
+      <span class="h" property="rdfs:label">cheatCodes</span>
+      <span property="rdfs:comment">Cheat codes to the game</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/VideoGame">VideoGame</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/CreativeWork">CreativeWork</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/help">
+      <span class="h" property="rdfs:label">help</span>
+      <span property="rdfs:comment">Software application help</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/SoftwareApplication">SoftwareApplication</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/CreativeWork">CreativeWork</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/tips">
+      <span class="h" property="rdfs:label">tips</span>
+      <span property="rdfs:comment">Links to tips, tactics, etc</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/VideoGame">VideoGame</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/URL">URL</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/platform">
+      <span class="h" property="rdfs:label">gamePlatform</span>
+      <span property="rdfs:comment">The electronic systems used to play video games http://en.wikipedia.org/wiki/Category:Video_game_platforms</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/VideoGame">VideoGame</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/URL">URL</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/serverStatus">
+      <span class="h" property="rdfs:label">serverStatus</span>
+      <span property="rdfs:comment">Status of game server</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/OnlineGame">OnlineGame</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
+    </div>
+      <div typeof="rdf:Property" resource="http://schema.org/playersNumber">
+      <span class="h" property="rdfs:label">playersOnline</span>
+      <span property="rdfs:comment">Number of players on the server</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/OnlineGame">OnlineGame</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Number">Number</a></span>
+    </div>
+
+
   </body>
 </html>
