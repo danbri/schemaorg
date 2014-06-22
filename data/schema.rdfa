@@ -10001,5 +10001,88 @@ on public-vocabs@w3.org.</p>
       <span>rangeIncludes: <a property="http://schema.org/rangeIncludes" href="http://schema.org/URL">URL</a></span>
     </div>
 
-  </body>
+
+<h1>MiniSKOS</h1>
+
+<p>Enrichment of Schema.org to enable controlled vocabularies web publication with a SKOS description of concepts and schemes. This version is very very minimalistic.</p>
+
+<p>See <a href="http://www.w3.org/wiki/WebSchemas/SKOS">wiki</a> for details.</p>
+
+<div typeof="rdfs:Class" resource="http://schema.org/ConceptCode">
+  <span class="h" property="rdfs:label">ConceptCode</span>
+  <span property="rdfs:comment">Schema.org's notion of 'ConceptCode' covers categories, controlled lists of values, subject classification codes (e.g. UDC, Dewey), thesauri and other controlled codes. This mechanism is not intended as a general-purpose knowledge representation system. In schema.org a ConceptCode (typically published at some url, eg. using W3C SKOS) can be used to express what a creative work is 'about', but also it can be used with the occupationalCategory of a JobPosting, amongst other properties. For example, the targetUrl of an AlignmentObject can also be used in this way, when describing educationally-oriented resources. 'ConceptCode' in schema.org corresponds to 'Concept' in W3C's SKOS language. Simple textual descriptions of a topical 'codeValue' and its 'codingSystem' can also be expressed textually.</span>
+  <span>equivalent class: <a property="owl:equivalentClass" href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></span>
+  <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Intangible">Intangible</a></span>
+  <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_SKOSClass">SKOS</a></span>
+</div>
+
+<p>We also generalize some existing properties from MedicalCode, which we declare to be a subtype of ConceptCode.</p>
+
+<div typeof="rdfs:Class" resource="http://schema.org/MedicalCode">
+  <link property="rdfs:subClassOf" href="http://schema.org/ConceptCode"/>
+</div>
+
+<p>We add a domainIncludes association to ConceptCode for these two properties, and also allow URL values on rangeIncludes.</p>
+
+<ul>
+  <li>
+  <div typeof="rdf:Property" resource="http://schema.org/codeValue">codeValue: "The actual code.".
+  <span>domainIncludes: <a property="http://schema.org/domainIncludes" href="http://schema.org/ConceptCode">ConceptCode</a></span></div>
+  </li>
+  <li>
+  <div typeof="rdf:Property" resource="http://schema.org/codingSystem">codingSystem: "The coding system, e.g. 'ICD-10'.".
+  <span>domainIncludes: <a property="http://schema.org/domainIncludes" href="http://schema.org/ConceptCode">ConceptCode</a></span>
+  <span>rangeIncludes: <a property="http://schema.org/rangeIncludes" href="http://schema.org/URL">URL</a></span>
+  </div>
+  </li>
+</ul>
+
+<p>We add a rangeIncludes of 'ConceptCode' to these properties: about, occupationalCategory, targetUrl, applicationCategory, applicationSubCategory, category, mentions  ...</p>
+
+<div typeof="rdf:Property" resource="http://schema.org/occupationalCategory">
+<span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/ConceptCode">ConceptCode</a></span>
+</div>
+
+<div typeof="rdf:Property" resource="http://schema.org/targetUrl">
+<span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/ConceptCode">ConceptCode</a></span>
+</div>
+
+<div typeof="rdf:Property" resource="http://schema.org/applicationCategory">
+<span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/ConceptCode">ConceptCode</a></span>
+</div>
+
+<div typeof="rdf:Property" resource="http://schema.org/applicationSubCategory">
+<span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/ConceptCode">ConceptCode</a></span>
+</div>
+
+<div typeof="rdf:Property" resource="http://schema.org/category">
+<span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/ConceptCode">ConceptCode</a></span>
+</div>
+
+<div typeof="rdf:Property" resource="http://schema.org/serviceType">
+<span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/ConceptCode">ConceptCode</a></span>
+</div>
+
+<div typeof="rdf:Property" resource="http://schema.org/genre">
+<span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/ConceptCode">ConceptCode</a></span>
+</div>
+
+<div typeof="rdf:Property" resource="http://schema.org/mentions"> <!-- cf foaf:focus, re mentioning the topic as a topic; we skip a level of indirection. -->
+<span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/ConceptCode">ConceptCode</a></span>
+</div>
+
+
+<div typeof="http://schema.org/Concept" resource="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_SKOSProperties">
+<span property="rdfs:label">SKOSProperties</span>
+<span property="rdfs:comment">This class includes properties whose definitions are based on the work of SKOS, see http://www.w3.org/2004/02/skos/ for details.</span>
+</div>
+
+<div typeof="http://schema.org/Organization" resource="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_SKOSClass">
+<span property="rdfs:label">SKOSClass</span>
+<span property="rdfs:comment">This class is based on the work of the SKOS project, see http://www.w3.org/2004/02/skos/ for details.</span>
+</div>
+
+
+
+</body>
 </html>
