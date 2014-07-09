@@ -11961,7 +11961,6 @@ JSON:
     "namedPosition": "Quarterback"
   }
 }
-
 </script>
 
 TYPES:  WebPage, CollegeOrUniversity
