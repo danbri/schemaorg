@@ -10110,7 +10110,7 @@ on public-vocabs@w3.org.</p>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Integer">Integer</a></span>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
       <link property="owl:equivalentProperty" href="http://purl.org/ontology/bibo/pageEnd"/>
-      <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibo">Bibliographic Ontology</a></span>
+      <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex">Bibliographic Ontology</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/pageStart">
       <span class="h" property="rdfs:label">pageStart</span>
@@ -10121,7 +10121,7 @@ on public-vocabs@w3.org.</p>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Integer">Integer</a></span>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
       <link property="owl:equivalentProperty" href="http://purl.org/ontology/bibo/pageStart"/>
-      <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibo">Bibliographic Ontology</a></span>
+      <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex">Bibliographic Ontology</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/pagination">
       <span class="h" property="rdfs:label">pagination</span>
@@ -10131,7 +10131,7 @@ on public-vocabs@w3.org.</p>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Article">Article</a></span>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
       <link property="owl:equivalentProperty" href="http://purl.org/ontology/bibo/pages"/>
-      <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibo">Bibliographic Ontology</a></span>
+      <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex">Bibliographic Ontology</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/volumeNumber">
       <span class="h" property="rdfs:label">volumeNumber</span>
@@ -10141,6 +10141,28 @@ on public-vocabs@w3.org.</p>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Integer">Integer</a></span>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
       <link property="owl:equivalentProperty" href="http://purl.org/ontology/bibo/volume"/>
+    </div>
+
+    <h1>BibExtend Properties</h1>
+
+    <div typeof="rdf:Property" resource="http://schema.org/workExample">
+      <span class="h" property="rdfs:label">workExample</span>
+      <span property="rdfs:comment">workExample</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/CreativeWork">CreativeWork</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/CreativeWork">CreativeWork</a></span>
+      <link property="owl:equivalentProperty" href="http://purl.org/ontology/bibo/pages"/>
+      <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex">BibExtend Community</a></span>
+      <link property="http://schema.org/inverseOf" href="http://schema.org/exampleOfWork"/>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/exampleOfWork">
+      <span class="h" property="rdfs:label">exampleOfWork</span>
+      <span property="rdfs:comment">exampleOfWork</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/CreativeWork">CreativeWork</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/CreativeWork">CreativeWork</a></span>
+<!--      <link property="owl:equivalentProperty" href="http://purl.org/ontology/bibo/pages"/> -->
+      <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex">BibExtend Community</a></span>
+      <link property="http://schema.org/inverseOf" href="http://schema.org/exampleOfWork"/>
     </div>
 
   </body>
