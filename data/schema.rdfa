@@ -10272,5 +10272,51 @@ postponing for 1.6.
       <span>rangeIncludes: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Organization">Organization</a></span>
     </div>
 
+  <h1>Actions (more...)</h1>
+
+    <div typeof="rdfs:Class" resource="http://schema.org/OperateAction">
+      <span class="h" property="rdfs:label">OperateAction</span>
+      <span property="rdfs:comment">An agent operates a device or application.</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Action">Action</a></span>
+    </div>
+
+    <div typeof="rdfs:Class" resource="http://schema.org/ActivateAction">
+      <span class="h" property="rdfs:label">ActivateAction</span>
+      <span property="rdfs:comment">The act of starting or activating a device or application (e.g. starting a timer or turning on a flashlight).</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/OperateAction">OperateAction</a></span>
+    </div>
+
+    <div typeof="rdfs:Class" resource="http://schema.org/DeactivateAction">
+      <span class="h" property="rdfs:label">DeactivateAction</span>
+      <span property="rdfs:comment">The act of stopping or deactivating a device or application (e.g. stopping a timer or turning off a flashlight).</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/OperateAction">OperateAction</a></span>
+    </div>
+
+    <div typeof="rdfs:Class" resource="http://schema.org/ResumeAction">
+      <span class="h" property="rdfs:label">ResumeAction</span>
+      <span property="rdfs:comment">The act of resuming a device or application which was formerly paused (e.g. resume music playback or resume a timer).</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/OperateAction">OperateAction</a></span>
+    </div>
+
+    <div typeof="rdfs:Class" resource="http://schema.org/SuspendAction">
+      <span class="h" property="rdfs:label">SuspendAction</span>
+      <span property="rdfs:comment">The act of momentarily pausing a device or application (e.g. pause music playback or pause a timer).</span>
+       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/OperateAction">OperateAction</a></span>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/contingentOnOffer">
+      <span class="h" property="rdfs:label">contingentOnOffer</span>
+      <span property="rdfs:comment">An Offer which must be accepted before the user can perform the Action. For example, the user may need to buy a movie before being able to watch it.</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/ConsumeAction">ConsumeAction</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Offer">Offer</a></span>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/notAvailableAtOrFrom">
+      <span class="h" property="rdfs:label">notAvailableAtOrFrom</span>
+      <span property="rdfs:comment">The place(s) from which the offer cannot be obtained (e.g. a region where the transaction is not allowed).</span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Offer">Offer</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Place">Place</a></span>
+    </div>  
+
   </body>
 </html>
