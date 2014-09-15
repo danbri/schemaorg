@@ -1,0 +1,18 @@
+<div>
+<h2>Experimental Physical Accessibility vocabulary</h2>
+
+    <div typeof="rdf:Property" resource="http://schema.org/wheelchairFriendlNotes">
+        <span class="h" property="rdfs:label">wheelchairFriendlyNotes</span>
+        <span property="rdfs:comment">Indicates how a place attempts to enable wheelchair users to get around.</span>
+        <span>domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Place">Place</a></span>
+        <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
+    </div>
+
+    <div typeof="rdf:Property" resource="http://schema.org/isWheelchairUnfriendly">
+        <span class="h" property="rdfs:label">isWheelchairUnfriendly</span>
+        <span property="rdfs:comment">Indicates that a place is very difficult for a wheelchair user.</span>
+        <span>domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Place">Place</a></span>
+        <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Boolean">Boolean</a></span>
+    </div>
+
+</div>
