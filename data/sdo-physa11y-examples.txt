@@ -1,0 +1,43 @@
+TYPES: wheelchairFriendlyNotes, isWheelchairUnfriendly, Place, TrainStation, SingleFamilyResidence
+
+PRE-MARKUP:
+
+<p>(A WebSite describing its search options)</p>
+
+MICRODATA:
+
+<div itemscope itemtype="http://schema.org/TrainStation">
+  <meta itemprop="sameAs" content="http://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Sol"/>
+  <p lang="en" itemprop="wheelchairFriendlyNotes">Has lifts providing access to each floor of the Renfe station and outside and ticket barriers include at least one extra wide barrier for wheelchairs.</p>
+  <p lang="es" itemprop="wheelchairFriendlyNotes">Se puede acceder a todas las plantas por ascensor. Hay una barrera ancha, accesible por silla de ruedas.</p>
+  <link itemprop="isWheelchairUnfriendly" href="http://schema.org/False"/>
+</div>
+
+<div itemscope itemtype="http://schema.org/SingleFamilyResidence" lang="en">
+  <p><span itemprop="name">My House</span> has steps to get to the front door, making it very difficult for wheelchair users.</p>
+  <link itemprop="isWheelchairUnfriendly" href="http://schema.org/True"/>
+</div>
+
+RDFA:
+
+<div  vocab="http://schema.org/" typeof="TrainStation">
+  <meta property="sameAs" content="http://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Sol"/>
+  <p lang="en" property="wheelchairFriendlyNotes">Has lifts providing access to each floor of the Renfe station and outside and ticket barriers include at least one extra wide barrier for wheelchairs.</p>
+  <p lang="es" property="wheelchairFriendlyNotes">Se puede acceder a todas las plantas por ascensor. Hay una barrera ancha, accesible por silla de ruedas.</p>
+  <link property="isWheelchairUnfriendly" href="http://schema.org/False"/>
+</div>
+
+<div vocab="http://schema.org/" typeof="SingleFamilyResidence" lang="en">
+  <p><span property="name">My House</span> has steps to get to the front door, making it very difficult for wheelchair users.</p>
+  <link property="isWheelchairUnfriendly" href="http://schema.org/True"/>
+</div>
+
+JSON:
+
+TODO.
+
+TYPES:  FakeEntryNeeded, FixMeSomeDay
+PRE-MARKUP:
+MICRODATA:
+RDFA:
+JSON:
