@@ -2,7 +2,7 @@ TYPES: wheelchairFriendlyNotes, isWheelchairUnfriendly, Place, TrainStation, Sin
 
 PRE-MARKUP:
 
-<p>(A WebSite describing its search options)</p>
+<p>TODO (but see Microdata/RDFa tabs for now.)</p>
 
 MICRODATA:
 
