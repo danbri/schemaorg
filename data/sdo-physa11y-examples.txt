@@ -2,7 +2,14 @@ TYPES: wheelchairFriendlyNotes, isWheelchairUnfriendly, Place, TrainStation, Sin
 
 PRE-MARKUP:
 
-<p>TODO (but see Microdata/RDFa tabs for now.)</p>
+<div>
+  <p lang="en">Has lifts providing access to each floor of the Renfe station and outside and ticket barriers include at least one extra wide barrier for wheelchairs.</p>
+  <p lang="es">Se puede acceder a todas las plantas por ascensor. Hay una barrera ancha, accesible por silla de ruedas.</p>
+</div>
+
+<div lang="en">
+  <p>My House has steps to get to the front door, making it very difficult for wheelchair users.</p>
+</div>
 
 MICRODATA:
 
