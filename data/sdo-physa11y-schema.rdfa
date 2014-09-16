@@ -1,7 +1,7 @@
 <div>
 <h2>Experimental Physical Accessibility vocabulary</h2>
 
-    <div typeof="rdf:Property" resource="http://schema.org/wheelchairFriendlNotes">
+    <div typeof="rdf:Property" resource="http://schema.org/wheelchairFriendlyNotes">
         <span class="h" property="rdfs:label">wheelchairFriendlyNotes</span>
         <span property="rdfs:comment">Indicates how a place attempts to enable wheelchair users to get around.</span>
         <span>domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Place">Place</a></span>
