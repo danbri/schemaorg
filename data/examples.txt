@@ -6036,7 +6036,7 @@ JSON:
     "@type": "Person",
     "name": "John"
   },
-  "location": {
+  "object": {
     "@type": "Place",
     "address": {
       "@type": "PostalAddress",
@@ -6235,7 +6235,7 @@ JSON:
     "@type": "Person",
     "name": "Steve"
   },
-  "event": {
+  "object": {
     "@type": "BusinessEvent",
     "name": "Department party"
   }
@@ -6267,7 +6267,7 @@ JSON:
     "@type": "Person",
     "name": "John"
   },
-  "event": {
+  "object": {
     "@type": "SportsEvent",
     "name": "NBA finals"
   }
@@ -6299,7 +6299,7 @@ JSON:
     "@type": "Person",
     "name": "John"
   },
-  "event": {
+  "object": {
     "@type": "SportsEvent",
     "name": "NBA finals"
   }
@@ -6335,7 +6335,7 @@ JSON:
     "@type": "Person",
     "name": "Steve"
   },
-  "event": {
+  "object": {
     "@type": "Event",
     "name": "Steve's party"
   }
@@ -6606,7 +6606,7 @@ JSON:
     "@type": "Person",
     "name": "John"
   },
-  "event": {
+  "object": {
     "@type": "Festival",
     "name": "Woodstock"
   }
