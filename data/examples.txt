@@ -6478,7 +6478,7 @@ JSON:
     "@type": "Person",
     "name": "Steve"
   },
-  "location": {
+  "instrument": {
     "@type": "Product",
     "name": "Twitter"
   }
@@ -7850,7 +7850,7 @@ JSON:
     "@type": "Book",
     "name": "Outliers"
   },
-  "location": {
+  "instrument": {
     "@type": "Product",
     "name": "Amazon"
   }
@@ -7920,7 +7920,7 @@ JSON:
     "@type": "Book",
     "name": "Outliers"
   },
-  "location": {
+  "instrument": {
     "@type": "Product",
     "name": "Amazon"
   }
@@ -8060,7 +8060,7 @@ JSON:
     "@type": "Book",
     "name": "Outliers"
   },
-  "location": {
+  "instrument": {
     "@type": "Product",
     "name": "Amazon"
   }
