@@ -4487,7 +4487,7 @@ JSON:
       "name": "Steve"
     },
     "instrument": {
-      "@type": "WebPage",
+      "@type": "WebSite",
       "url": "https://www.social.com"
     }
   }
@@ -6128,7 +6128,7 @@ JSON:
     "flightNumber": "AA110"
   },
   "instrument": {
-    "@type": "WebApplication",
+    "@type": "WebSite",
     "url": "http://aa.com"
   }
 }
@@ -6164,7 +6164,7 @@ JSON:
     "flightNumber": "AA110"
   },
   "instrument": {
-    "@type": "WebApplication",
+    "@type": "WebSite",
     "url": "http://aa.com"
   }
 }
@@ -6479,7 +6479,7 @@ JSON:
     "name": "Steve"
   },
   "instrument": {
-    "@type": "Product",
+    "@type": "WebSite",
     "name": "Twitter"
   }
 }
@@ -6735,7 +6735,7 @@ JSON:
     "name": "John"
   },
   "object": {
-    "@type": "Product",
+    "@type": "WebSite",
     "name": "Twitter"
   }
 }
@@ -7328,7 +7328,7 @@ JSON:
     "url": "http://john.com/steve.jpg"
   },
   "instrument": {
-    "@type": "Product",
+    "@type": "WebSite",
     "name": "Instagram"
   }
 }
@@ -7851,7 +7851,7 @@ JSON:
     "name": "Outliers"
   },
   "instrument": {
-    "@type": "Product",
+    "@type": "WebSite",
     "name": "Amazon"
   }
 }
@@ -7911,7 +7911,7 @@ JSON:
   // John ordered a Book on amazon.com.
 {
   "@context": "http://schema.org",
-  "@type": "OrderedAction",
+  "@type": "OrderAction",
   "agent": {
     "@type": "Person",
     "name": "John"
@@ -7921,7 +7921,7 @@ JSON:
     "name": "Outliers"
   },
   "instrument": {
-    "@type": "Product",
+    "@type": "WebSite",
     "name": "Amazon"
   }
 }
@@ -8051,7 +8051,7 @@ JSON:
   // John sold a Book on amazon.com.
 {
   "@context": "http://schema.org",
-  "@type": "BuyAction",
+  "@type": "SellAction",
   "agent": {
     "@type": "Person",
     "name": "John"
@@ -8061,7 +8061,7 @@ JSON:
     "name": "Outliers"
   },
   "instrument": {
-    "@type": "Product",
+    "@type": "WebSite",
     "name": "Amazon"
   }
 }
