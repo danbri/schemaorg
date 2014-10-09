@@ -6231,14 +6231,6 @@ Note that Event uses startDate/endDate instead of startTime/endTime, even when d
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/SoftwareApplication">SoftwareApplication</a></span>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Integer">Integer</a></span>
     </div>
-    <div typeof="rdf:Property" resource="http://schema.org/followee">
-      <span class="h" property="rdfs:label">followee</span>
-      <span property="rdfs:comment">A sub property of object. The person or organization being followed.</span>
-      <link property="rdfs:subPropertyOf" href="http://schema.org/object" />
-      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/FollowAction">FollowAction</a></span>
-      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Organization">Organization</a></span>
-      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Person">Person</a></span>
-    </div>
     <div typeof="rdf:Property" resource="http://schema.org/follows">
       <span class="h" property="rdfs:label">follows</span>
       <span property="rdfs:comment">The most generic uni-directional social relation.</span>
