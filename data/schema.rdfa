@@ -6096,11 +6096,7 @@ Note that Event uses startDate/endDate instead of startTime/endTime, even when d
       <span property="rdfs:comment">Upcoming or past event associated with this place or organization.</span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Organization">Organization</a></span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Place">Place</a></span>
-      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/InformAction">InformAction</a></span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/PlayAction">PlayAction</a></span>
-      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/InviteAction">InviteAction</a></span>
-      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/JoinAction">JoinAction</a></span>
-      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/LeaveAction">LeaveAction</a></span>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Event">Event</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/events">
