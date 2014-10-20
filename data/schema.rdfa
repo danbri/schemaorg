@@ -8008,6 +8008,7 @@ Note that Event uses startDate/endDate instead of startTime/endTime, even when d
       <span property="rdfs:comment">A sub property of participant. The participant who is at the receiving end of the action.</span>
       <link property="rdfs:subPropertyOf" href="http://schema.org/participant" />
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/CommunicateAction">CommunicateAction</a></span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/AssignAction">AssignAction</a></span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/AuthorizeAction">AuthorizeAction</a></span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/DonateAction">DonateAction</a></span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/GiveAction">GiveAction</a></span>
