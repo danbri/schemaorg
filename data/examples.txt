@@ -5612,6 +5612,10 @@ JSON:
     "name": "John"
   },
   "object": {
+    "@type": "Person",
+    "name": "Steve"
+  },
+  "result": {
     "@type": "ImageObject",
     "url": "http://john.com/steve.jpg"
   }
