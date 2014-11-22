@@ -6478,7 +6478,7 @@ JSON:
     "@type": "Person",
     "name": "John"
   },
-  "object": {
+  "followee": {
     "@type": "Person",
     "name": "Steve"
   },
