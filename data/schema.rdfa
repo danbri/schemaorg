@@ -11229,7 +11229,7 @@ postponing for 1.6.
     <!-- additional class from http://purl.org/goodrelations/ -->
     <div typeof="rdfs:Class" resource="http://schema.org/PropertyValue">
         <span class="h" property="rdfs:label">PropertyValue</span>
-        <span property="rdfs:comment">A property-value pair, e.g. representing a feature of a product or place. Use the &apos;name&apos; property for the name of the property. If the value is an unstructured text or if there is an additional human-readable version of the value, put that into the &apos;description&apos; property</span>
+        <span property="rdfs:comment">A property-value pair, e.g. representing a feature of a product or place. Use the &apos;name&apos; property for the name of the property. If there is an additional human-readable version of the value, put that into the &apos;description&apos; property</span>
         <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/StructuredValue">StructuredValue</a></span>
         <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass">GoodRelationsClass</a></span>
     </div>

@@ -31,23 +31,23 @@ MICRODATA:
 <!-- Note: We do not split value strings in unit and value information, since this the raw EXIF data does not provide this granularity. If you are able to separate the unit, you can use the unitText property -->
   <div itemprop="exifData" itemscope itemtype="http://schema.org/PropertyValue">
       <meta itemprop="name" content="Exposure Time">
-	  <meta itemprop="value" content="1/659 sec.">
+      <meta itemprop="value" content="1/659 sec.">
   </div>
   <div itemprop="exifData" itemscope itemtype="http://schema.org/PropertyValue">
       <meta itemprop="name" content="FNumber">
-	  <meta itemprop="value" content="f/4.0">
+      <meta itemprop="value" content="f/4.0">
   </div>
   <div itemprop="exifData" itemscope itemtype="http://schema.org/PropertyValue">
       <meta itemprop="name" content="MaxApertureValue">
-	  <meta itemprop="value" content="2.00">
+      <meta itemprop="value" content="2.00">
   </div>   
   <div itemprop="exifData" itemscope itemtype="http://schema.org/PropertyValue">
       <meta itemprop="name" content="Metering Mode">
-	  <meta itemprop="value" content="Pattern">
+      <meta itemprop="value" content="Pattern">
   </div>
   <div itemprop="exifData" itemscope itemtype="http://schema.org/PropertyValue">
       <meta itemprop="name" content="Flash">
-	  <meta itemprop="value" content="Flash did not fire.">
+      <meta itemprop="value" content="Flash did not fire.">
   </div>
 </div>
 
@@ -65,23 +65,23 @@ RDFA:
 <!-- Note: We do not split value strings in unit and value information, since this the raw EXIF data does not provide this granularity. If you are able to separate the unit, you can use the unitText property -->
   <div property="exifData" typeOf="PropertyValue">
       <meta property="name" content="Exposure Time">
-	  <meta property="value" content="1/659 sec.">
+      <meta property="value" content="1/659 sec.">
   </div>
   <div property="exifData" typeOf="PropertyValue">
       <meta property="name" content="FNumber">
-	  <meta property="value" content="f/4.0">
+      <meta property="value" content="f/4.0">
   </div>
   <div property="exifData" typeOf="PropertyValue">
       <meta property="name" content="MaxApertureValue">
-	  <meta property="value" content="2.00">
+      <meta property="value" content="2.00">
   </div>   
   <div property="exifData" typeOf="PropertyValue">
       <meta property="name" content="Metering Mode">
-	  <meta property="value" content="Pattern">
+      <meta property="value" content="Pattern">
   </div>
   <div property="exifData" typeOf="PropertyValue">
       <meta property="name" content="Flash">
-	  <meta property="value" content="Flash did not fire.">
+      <meta property="value" content="Flash did not fire.">
   </div>  
 </div>
 
@@ -100,27 +100,27 @@ JSON:
   "exifData": {
     "@type": "PropertyValue",
     "name": "Exposure Time",
-	"value": "1/659 sec."
+    "value": "1/659 sec."
   }
   "exifData": {
     "@type": "PropertyValue",
     "name": "FNumber",
-	"value": "f/4.0"
+    "value": "f/4.0"
   }
   "exifData": {
     "@type": "PropertyValue",
     "name": "MaxApertureValue",
-	"value": "2.00"
+    "value": "2.00"
   }
   "exifData": {
     "@type": "PropertyValue",
     "name": "Metering Mode",
-	"value": "Pattern"
+    "value": "Pattern"
   }
   "exifData": {
     "@type": "PropertyValue",
     "name": "Flash",
-	"value": "Flash did not fire."
+    "value": "Flash did not fire."
   }    
 }
 </script>
