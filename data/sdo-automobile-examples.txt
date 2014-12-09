@@ -29,7 +29,7 @@ PRE-MARKUP:
     <p><strong>Engine Power: </strong>147 kw at 5100 rpm</p>
     <p><strong>Fuel type: </strong>Petrol - Premium ULP</p>
     <p><strong>Engine Size: </strong>1984 ccm</p>
-  	<p><strong>Mileage: </strong>53100 km</p>
+    <p><strong>Mileage: </strong>53100 km</p>
     <p><strong>Number of airbags: </strong>6</p>
     <p><strong>CO2 Emission Combined: </strong>192 g/km</p>
 </div>
@@ -188,53 +188,53 @@ JSON:
   "@type": "Person",
   "name" : "Brent",
   "makesOffer" : { 
-  		"@type" :"Offer",
-		"priceSpecification" : { 
-			"@type" : "UnitPriceSpecification", 
- 	   		"priceCurrency" : "USD",
-			"price" : "18000" },
-		"itemOffered" : { 
-			"@type" : "Car",
-			"name" : "2009 Volkswagen Golf V GTI MY09 Direct-Shift Gearbox",
-			"description" : "2009 Volkswagen Golf V GTI MY09 Direct-Shift Gearbox in perfect mechanical condition and low kilometres. It's impressive 2.0 litre turbo engine makes every drive a fun experience. Well looked after by one owner with full service history. It drives like new and has only done 50,000kms. (...)",
-		"image" : "2009_Volkswagen_Golf_V_GTI_MY09.png",
+        "@type" :"Offer",
+        "priceSpecification" : { 
+            "@type" : "UnitPriceSpecification", 
+            "priceCurrency" : "USD",
+            "price" : "18000" },
+        "itemOffered" : { 
+            "@type" : "Car",
+            "name" : "2009 Volkswagen Golf V GTI MY09 Direct-Shift Gearbox",
+            "description" : "2009 Volkswagen Golf V GTI MY09 Direct-Shift Gearbox in perfect mechanical condition and low kilometres. It's impressive 2.0 litre turbo engine makes every drive a fun experience. Well looked after by one owner with full service history. It drives like new and has only done 50,000kms. (...)",
+        "image" : "2009_Volkswagen_Golf_V_GTI_MY09.png",
         "color" : "Black",
         "colorInterior" : "Black",
-		"interiorType" : "Leather upholstery, wood paneling",
-		"modelDate" : "2009",
+        "interiorType" : "Leather upholstery, wood paneling",
+        "modelDate" : "2009",
         "transmission" : "6 speed Sports Automatic Dual Clutch",
-		"VIN" : "WVWZZZ1KZ9U######",
-		"gears" : "6",
-		"bodyType" : "Hatchback",
-		"doors" : "3",
-		"seatingCapacity" : "5",
-		"driveWheelConfiguration" : "http://schema.org/FWD",
-		"engineName" : "4 cylinder Petrol Turbo Intercooled 2.0 L (1984 cc)",
-		"enginePower" : { 
-			"@type" : "QuantitativeValue",
+        "VIN" : "WVWZZZ1KZ9U######",
+        "gears" : "6",
+        "bodyType" : "Hatchback",
+        "doors" : "3",
+        "seatingCapacity" : "5",
+        "driveWheelConfiguration" : "http://schema.org/FWD",
+        "engineName" : "4 cylinder Petrol Turbo Intercooled 2.0 L (1984 cc)",
+        "enginePower" : { 
+            "@type" : "QuantitativeValue",
             "value" : "147",
-			"unitCode" : "KWT",
-			"valueReference" : {
-				"@type" : "QuantitativeValue",
-				"name" : "referenceRPM", 
-              	"value" : "5100",
-				"unitCode" : "RPM" }
-						},
-		"fuelType" : "Petrol - Premium ULP",
-		"engineDisplacement" : {
-			"@type": "QuantitativeValue",
-			"value" : "1984",
-			"unitCode" : "CMQ"
-						},
-		"mileageFromOdometer" : {
-			"@type" : "QuantitativeValue",
-			"value" : "53100",
-			"unitCode" : "KMT"
-						},
-		"airbags" : "6",
-		"emissionCO2" : "192"
-		}
-	}
+            "unitCode" : "KWT",
+            "valueReference" : {
+                "@type" : "QuantitativeValue",
+                "name" : "referenceRPM", 
+                "value" : "5100",
+                "unitCode" : "RPM" }
+                        },
+        "fuelType" : "Petrol - Premium ULP",
+        "engineDisplacement" : {
+            "@type": "QuantitativeValue",
+            "value" : "1984",
+            "unitCode" : "CMQ"
+                        },
+        "mileageFromOdometer" : {
+            "@type" : "QuantitativeValue",
+            "value" : "53100",
+            "unitCode" : "KMT"
+                        },
+        "airbags" : "6",
+        "emissionCO2" : "192"
+        }
+    }
 }
 </script>
 
