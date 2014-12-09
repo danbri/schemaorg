@@ -3277,13 +3277,13 @@
 
     <div typeof="rdfs:Class" resource="http://schema.org/BusinessEntityType">
       <span class="h" property="rdfs:label">BusinessEntityType</span>
-	  <span property="rdfs:comment">A business entity type is a conceptual entity representing the legal form, the size, the main line of business, the position in the value chain, or any combination thereof, of an organization or business person. &lt;br /&gt;
+      <span property="rdfs:comment">A business entity type is a conceptual entity representing the legal form, the size, the main line of business, the position in the value chain, or any combination thereof, of an organization or business person. &lt;br /&gt;
     Commonly used values:&lt;br /&gt;
     http://purl.org/goodrelations/v1#Business &lt;br /&gt;
     http://purl.org/goodrelations/v1#Enduser &lt;br /&gt;
     http://purl.org/goodrelations/v1#PublicInstitution &lt;br /&gt;
     http://purl.org/goodrelations/v1#Reseller &lt;br /&gt;
-	  </span>
+      </span>
        <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Enumeration">Enumeration</a></span>
        <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass">GoodRelationsClass</a></span></div>
 
@@ -9491,13 +9491,13 @@ Note that Event uses startDate/endDate instead of startTime/endTime, even when d
     </div>
     <div typeof="rdfs:Class" resource="http://schema.org/Vehicle">
       <span class="h" property="rdfs:label">Vehicle</span>
-	  <span property="rdfs:comment">A vehicle is a device that is designed or used to transport people or cargo over land, water, air, or through space.</span>
+      <span property="rdfs:comment">A vehicle is a device that is designed or used to transport people or cargo over land, water, air, or through space.</span>
       <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Product">Product</a></span>
     </div>
     <div typeof="rdfs:Class" resource="http://schema.org/Car">
       <span class="h" property="rdfs:label">Car</span>
-	  <span property="rdfs:comment">An automobile, motor car, or car is a wheeled motor vehicle used for transporting passengers, which also carries its own engine or motor.</span>      
-	  <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/MotorizedRoadVehicle">MotorizedRoadVehicle</a></span>
+      <span property="rdfs:comment">An automobile, motor car, or car is a wheeled motor vehicle used for transporting passengers, which also carries its own engine or motor.</span>      
+      <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/MotorizedRoadVehicle">MotorizedRoadVehicle</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/reservationId">
       <span class="h" property="rdfs:label">reservationId</span>
@@ -11267,7 +11267,7 @@ postponing for 1.6.
 <!-- Vehicles extension proposal, as per https://www.w3.org/wiki/WebSchemas/Vehicles -->
 <div>
     <h1>Vehicles</h1>
-	<!-- === Classes === -->
+    <!-- === Classes === -->
     <div typeof="rdfs:Class" resource="http://schema.org/MotorizedRoadVehicle">
         <span class="h" property="rdfs:label">MotorizedRoadVehicle</span>
         <span property="rdfs:comment">A motorized road vehicle is a wheeled land vehicle whose main propulsion is provided by an engine or motor.</span>
@@ -11373,9 +11373,9 @@ postponing for 1.6.
         <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/QualitativeValue">QualitativeValue</a></span>
         <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group">GAO</a></span>
     </div>
-    <div typeof="rdfs:Class" resource="http://schema.org/BodyStyleValue">
-        <span class="h" property="rdfs:label">BodyStyleValue</span>
-        <span property="rdfs:comment">A value indicating the body style of a vehicle.</span>
+    <div typeof="rdfs:Class" resource="http://schema.org/BodyTypeValue">
+        <span class="h" property="rdfs:label">BodyTypeValue</span>
+        <span property="rdfs:comment">A value indicating the body type or style of a vehicle.</span>
         <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/QualitativeValue">QualitativeValue</a></span>
         <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group">GAO</a></span>
     </div>
@@ -11525,11 +11525,11 @@ postponing for 1.6.
         <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/QuantitativeValue">QuantitativeValue</a></span>
         <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group">GAO</a></span>
     </div>
-    <div typeof="rdf:Property" resource="http://schema.org/bodyStyle">
-        <span class="h" property="rdfs:label">bodyStyle</span>
-        <span property="rdfs:comment">Indicates the design and body style of the vehicle.</span>
+    <div typeof="rdf:Property" resource="http://schema.org/bodyType">
+        <span class="h" property="rdfs:label">bodyType</span>
+        <span property="rdfs:comment">Indicates the design and body style of the vehicle (e.g. station wagon, hatchback, etc.).</span>
         <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Vehicle">Vehicle</a></span>
-        <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/BodyStyleValue">BodyStyleValue</a></span>
+        <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/BodyTypeValue">BodyTypeValue</a></span>
         <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
         <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group">GAO</a></span>
     </div>
@@ -11668,6 +11668,13 @@ postponing for 1.6.
         <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Date">Date</a></span>
         <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group">GAO</a></span>
     </div>
+    <div typeof="rdf:Property" resource="http://schema.org/purchasingDate">
+        <span class="h" property="rdfs:label">purchasingDate</span>
+        <span property="rdfs:comment">The date the vehicle was purchased by the current owner.</span>
+        <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Vehicle">Vehicle</a></span>
+        <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Date">Date</a></span>
+        <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group">GAO</a></span>
+    </div>
     <div typeof="rdf:Property" resource="http://schema.org/specialUsage">
         <span class="h" property="rdfs:label">specialUsage</span>
         <span property="rdfs:comment">Indicates whether the vehicle has been used for special purposes, like commercial rental, driving school, or as a taxi. The legislation in many countries requires this information to be revealed when offering a car for sale. 
@@ -11694,6 +11701,14 @@ postponing for 1.6.
     <div typeof="rdf:Property" resource="http://schema.org/engineName">
         <span class="h" property="rdfs:label">engineName</span>
         <span property="rdfs:comment">A short text indicating the engine(s) of the vehicle.</span>
+        <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/MotorizedRoadVehicle">MotorizedRoadVehicle</a></span>
+        <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/MotorBoat">MotorBoat</a></span>    
+        <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
+        <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group">GAO</a></span>
+    </div>
+    <div typeof="rdf:Property" resource="http://schema.org/configurationName">
+        <span class="h" property="rdfs:label">configurationName</span>
+        <span property="rdfs:comment">A short text indicating the configuration of the vehicle, e.g. &apos;5dr hatchback ST 2.5 MT 225 hp&apos; or &apos;limited edition&apos;.</span>
         <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/MotorizedRoadVehicle">MotorizedRoadVehicle</a></span>
         <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/MotorBoat">MotorBoat</a></span>    
         <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
