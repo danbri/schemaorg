@@ -4514,7 +4514,7 @@ JSON:
       "name": "Steve"
     },
     "instrument": {
-      "@type": "WebPage",
+      "@type": "WebSite",
       "url": "https://www.social.com"
     }
   }
@@ -5639,6 +5639,10 @@ JSON:
     "name": "John"
   },
   "object": {
+    "@type": "Person",
+    "name": "Steve"
+  },
+  "result": {
     "@type": "ImageObject",
     "url": "http://john.com/steve.jpg"
   }
@@ -6063,7 +6067,7 @@ JSON:
     "@type": "Person",
     "name": "John"
   },
-  "location": {
+  "object": {
     "@type": "Place",
     "address": {
       "@type": "PostalAddress",
@@ -6155,7 +6159,7 @@ JSON:
     "flightNumber": "AA110"
   },
   "instrument": {
-    "@type": "WebApplication",
+    "@type": "WebSite",
     "url": "http://aa.com"
   }
 }
@@ -6191,7 +6195,7 @@ JSON:
     "flightNumber": "AA110"
   },
   "instrument": {
-    "@type": "WebApplication",
+    "@type": "WebSite",
     "url": "http://aa.com"
   }
 }
@@ -6262,7 +6266,7 @@ JSON:
     "@type": "Person",
     "name": "Steve"
   },
-  "event": {
+  "object": {
     "@type": "BusinessEvent",
     "name": "Department party"
   }
@@ -6294,7 +6298,7 @@ JSON:
     "@type": "Person",
     "name": "John"
   },
-  "event": {
+  "object": {
     "@type": "SportsEvent",
     "name": "NBA finals"
   }
@@ -6326,7 +6330,7 @@ JSON:
     "@type": "Person",
     "name": "John"
   },
-  "event": {
+  "object": {
     "@type": "SportsEvent",
     "name": "NBA finals"
   }
@@ -6362,7 +6366,7 @@ JSON:
     "@type": "Person",
     "name": "Steve"
   },
-  "event": {
+  "object": {
     "@type": "Event",
     "name": "Steve's party"
   }
@@ -6505,8 +6509,8 @@ JSON:
     "@type": "Person",
     "name": "Steve"
   },
-  "location": {
-    "@type": "Product",
+  "instrument": {
+    "@type": "WebSite",
     "name": "Twitter"
   }
 }
@@ -6633,7 +6637,7 @@ JSON:
     "@type": "Person",
     "name": "John"
   },
-  "event": {
+  "object": {
     "@type": "Festival",
     "name": "Woodstock"
   }
@@ -6762,7 +6766,7 @@ JSON:
     "name": "John"
   },
   "object": {
-    "@type": "Product",
+    "@type": "WebSite",
     "name": "Twitter"
   }
 }
@@ -7355,7 +7359,7 @@ JSON:
     "url": "http://john.com/steve.jpg"
   },
   "instrument": {
-    "@type": "Product",
+    "@type": "WebSite",
     "name": "Instagram"
   }
 }
@@ -7877,8 +7881,8 @@ JSON:
     "@type": "Book",
     "name": "Outliers"
   },
-  "location": {
-    "@type": "Product",
+  "instrument": {
+    "@type": "WebSite",
     "name": "Amazon"
   }
 }
@@ -7938,7 +7942,7 @@ JSON:
   // John ordered a Book on amazon.com.
 {
   "@context": "http://schema.org",
-  "@type": "OrderedAction",
+  "@type": "OrderAction",
   "agent": {
     "@type": "Person",
     "name": "John"
@@ -7947,8 +7951,8 @@ JSON:
     "@type": "Book",
     "name": "Outliers"
   },
-  "location": {
-    "@type": "Product",
+  "instrument": {
+    "@type": "WebSite",
     "name": "Amazon"
   }
 }
@@ -8078,7 +8082,7 @@ JSON:
   // John sold a Book on amazon.com.
 {
   "@context": "http://schema.org",
-  "@type": "BuyAction",
+  "@type": "SellAction",
   "agent": {
     "@type": "Person",
     "name": "John"
@@ -8087,8 +8091,8 @@ JSON:
     "@type": "Book",
     "name": "Outliers"
   },
-  "location": {
-    "@type": "Product",
+  "instrument": {
+    "@type": "WebSite",
     "name": "Amazon"
   }
 }

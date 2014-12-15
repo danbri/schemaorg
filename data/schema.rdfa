@@ -6168,11 +6168,7 @@ Note that Event uses startDate/endDate instead of startTime/endTime, even when d
       <span property="rdfs:comment">Upcoming or past event associated with this place, organization, or action.</span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Organization">Organization</a></span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Place">Place</a></span>
-      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/InformAction">InformAction</a></span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/PlayAction">PlayAction</a></span>
-      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/InviteAction">InviteAction</a></span>
-      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/JoinAction">JoinAction</a></span>
-      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/LeaveAction">LeaveAction</a></span>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Event">Event</a></span>
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/events">
@@ -8078,6 +8074,7 @@ Note that Event uses startDate/endDate instead of startTime/endTime, even when d
       <span property="rdfs:comment">A sub property of participant. The participant who is at the receiving end of the action.</span>
       <link property="rdfs:subPropertyOf" href="http://schema.org/participant" />
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/CommunicateAction">CommunicateAction</a></span>
+      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/AssignAction">AssignAction</a></span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/AuthorizeAction">AuthorizeAction</a></span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/DonateAction">DonateAction</a></span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/GiveAction">GiveAction</a></span>
