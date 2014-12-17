@@ -11232,7 +11232,7 @@ postponing for 1.6.
         <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/StructuredValue">StructuredValue</a></span>
         <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass">GoodRelationsClass</a></span>
     </div>
-    <div typeof="rdf:Property" about="http://schema.org/additionalProperty">
+    <div typeof="rdf:Property" resource="http://schema.org/additionalProperty">
         <span class="h" property="rdfs:label">additionalProperty</span>
         <span property="rdfs:comment">A property-value pair representing an additional characteristics of the entitity, e.g. a product feature or another characteristic for which there is no matching property in schema.org..</span>
         <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Product">Product</a></span>
@@ -11241,7 +11241,7 @@ postponing for 1.6.
         <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/QualitativeValue">QualitativeValue</a></span>
         <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/PropertyValue">PropertyValue</a></span>
     </div>
-    <div typeof="rdf:Property" about="http://schema.org/unitText">
+    <div typeof="rdf:Property" resource="http://schema.org/unitText">
         <span class="h" property="rdfs:label">unitText</span>
         <span property="rdfs:comment">A string or text indicating the unit of measurement. Useful if you cannot provide a standard unit code for <code>unitCode</code>.</span>
         <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/PropertyValue">PropertyValue</a></span>
@@ -11250,7 +11250,7 @@ postponing for 1.6.
         <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/UnitPriceSpecification">UnitPriceSpecification</a></span>      
         <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
     </div>
-    <div typeof="rdf:Property" about="http://schema.org/propertyID">
+    <div typeof="rdf:Property" resource="http://schema.org/propertyID">
         <span class="h" property="rdfs:label">propertyID</span>
         <span property="rdfs:comment">A commonly used identifier for the characteristic represented by the property, e.g. a manufacturer or a standard code for a property. propertyID can be
     (1) a prefixed string, mainly meant to be used with standards for product properties; (2) a site-specific, non-prefixed string (e.g. the primary key of the property or the vendor-specific id of the property), or (3)
