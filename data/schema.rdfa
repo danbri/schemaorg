@@ -11305,8 +11305,8 @@ postponing for 1.6.
         <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/MotorizedRoadVehicle">MotorizedRoadVehicle</a></span>
         <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group">GAO</a></span>
     </div>
-    <div typeof="rdfs:Class" resource="http://schema.org/Bike">
-        <span class="h" property="rdfs:label">Bike</span>
+    <div typeof="rdfs:Class" resource="http://schema.org/Bicycle">
+        <span class="h" property="rdfs:label">Bicycle</span>
         <span property="rdfs:comment">A bicycle or bike is a pedal-driven, human-powered, single-track vehicle, having two wheels attached to a frame, one behind the other. Some bicycles have a small combustion or electric engine that assists with the pedaling.</span>
         <span>Subclass of: <a property="rdfs:subClassOf" href="http://schema.org/Vehicle">Vehicle</a></span>
         <span>Source:  <a property="dc:source" href="http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group">GAO</a></span>
