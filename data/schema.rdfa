@@ -11234,7 +11234,7 @@ postponing for 1.6.
     </div>
     <div typeof="rdf:Property" resource="http://schema.org/additionalProperty">
         <span class="h" property="rdfs:label">additionalProperty</span>
-        <span property="rdfs:comment">A property-value pair representing an additional characteristics of the entitity, e.g. a product feature or another characteristic for which there is no matching property in schema.org..</span>
+        <span property="rdfs:comment">A property-value pair representing an additional characteristics of the entitity, e.g. a product feature or another characteristic for which there is no matching property in schema.org.</span>
         <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Product">Product</a></span>
         <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Place">Place</a></span>
         <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/QualitativeValue">QualitativeValue</a></span>
