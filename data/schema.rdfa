@@ -10214,6 +10214,8 @@ postponing for 1.6.
          <span property="rdfs:comment">e.g. Painting, Drawing, Scupture, Print, Photograph, Assemblage, Collage, etc.</span>
          <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/VisualArtwork">VisualArtwork</a></span>
          <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
+         <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/URL">URL</a></span>
+         <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Intangible">Intangible</a></span>
        </div>
 
        <div typeof="rdf:Property" resource="http://schema.org/materials">
@@ -10221,6 +10223,8 @@ postponing for 1.6.
          <span property="rdfs:comment">e.g. Oil, Watercolour, Acrylic, Linoprint, Marble, Cyanotype, Digital, Lithograph, DryPoint, Intaglio, Pastel, Woodcut, Pencil, Mixed Media, etc.</span>
          <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/VisualArtwork">VisualArtwork</a></span>
          <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
+         <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/URL">URL</a></span>
+         <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Intangible">Intangible</a></span>
        </div>
 
        <div typeof="rdf:Property" resource="http://schema.org/surface">
@@ -10228,6 +10232,8 @@ postponing for 1.6.
          <span property="rdfs:comment">e.g. Canvas, Paper, Wood, Board, etc.</span>
          <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/VisualArtwork">VisualArtwork</a></span>
          <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
+         <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/URL">URL</a></span>
+         <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Intangible">Intangible</a></span>
        </div>
 
        <div typeof="rdf:Property" resource="http://schema.org/width"> <!-- exists, see http://schema.org/docs/schema_org_rdfa.html existing domains MediaObject, Product. -->
