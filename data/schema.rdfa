@@ -11224,7 +11224,7 @@ postponing for 1.6.
 
        <div typeof="rdf:Property" resource="http://schema.org/artform">
          <span class="h" property="rdfs:label">artform</span>
-         <span property="rdfs:comment">e.g. Painting, Drawing, Scupture, Print, Photograph, Assemblage, Collage, etc.</span>
+         <span property="rdfs:comment">e.g. Painting, Drawing, Sculpture, Print, Photograph, Assemblage, Collage, etc.</span>
          <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/VisualArtwork">VisualArtwork</a></span>
          <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
        </div>
